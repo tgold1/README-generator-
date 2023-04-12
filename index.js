@@ -2,10 +2,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+
 // TODO: Create an array of questions for user input
-const questions = 
-  inquirer
-  .prompt([
+const questions = [
+     
     {
       type: 'input',
       name: 'title',
@@ -32,9 +32,9 @@ const questions =
       message: 'How do you use this project?',
     },
     {
-        type: 'list',
-        name: 'license',
-        message: ['Apache 2.0', 'Creative Commons Zero v1.0 Univresal', 'GNU General Public v.2.0', 'MIT', 'Mozilla Public 2.0'],
+      type: 'list',
+      name: 'license',
+      choices: ['Apache 2.0', 'Creative Commons Zero v1.0 Univresal', 'GNU General Public v.2.0', 'MIT', 'Mozilla Public 2.0'],
     },
     {
       type: 'input',
@@ -53,10 +53,10 @@ const questions =
     },
     {
       type: 'input',
-      name: 'questions',
+      name: 'contact me',
       message: 'What is your email address?',
-    },
-  ])
+    }
+];
   function init() {
     inquirer
     .prompt(questions)
@@ -66,9 +66,7 @@ const questions =
             err ? console.log(err) : console.log('README generated!')
         );
     });
-}
-  
-;
+  }
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
