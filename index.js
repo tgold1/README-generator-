@@ -53,7 +53,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'contact me',
+      name: 'contactme',
       message: 'What is your email address?',
     }
 ];
