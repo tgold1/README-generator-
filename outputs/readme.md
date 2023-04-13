@@ -1,12 +1,12 @@
  
-  # README Generator
+  # The readme
 
   ## Description
-    It is a prompt to help you generate a readme file
+    to create a readme
 
   
   ## Table of Contents 
-    Click the links
+    
   
 -  [Installation](#installation)
 -  [Usage](#usage)
@@ -17,22 +17,23 @@
   
   ## Installation
   
-   By answering the prompts 
+   by answering the prompts
   
   ## Usage
   
-   After you answer the prompts a high-quality readme file will be generated
+   Build a readme with your answers
   
  
   
   ## Contributing
   
-   None 
+   None
   
   ## License
   
    MIT
-  
+    () renderLicenseBadge
+    
   
   
   
@@ -40,9 +41,9 @@
  
   
   ## Questions 
-  My github username is tgold1	
+  My github username is tgold1
   
-  Click here: https://github.com/tgold1	
+  Click here: https://github.com/tgold1
 
   Contact me further at tgold1@gmail.com
   

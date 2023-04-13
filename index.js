@@ -34,7 +34,7 @@ const questions = [
     {
       type: 'list',
       name: 'license',
-      choices: ['Apache 2.0', 'Creative Commons Zero v1.0 Univresal', 'GNU General Public v.2.0', 'MIT', 'Mozilla Public 2.0'],
+      choices: ['Apache 2.0', 'Creative Commons Zero v1.0 Univresal', 'GNU General Public v.2.0', 'MIT', 'Mozilla Public 2.0', 'None'],
     },
     {
       type: 'input',
