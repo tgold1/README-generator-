@@ -1,12 +1,15 @@
  
-  # The readme
+  # readme 
+  
+  
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
-    to create a readme
+    It is a readme file generator
 
   
   ## Table of Contents 
-    
+    click on the link
   
 -  [Installation](#installation)
 -  [Usage](#usage)
@@ -17,22 +20,23 @@
   
   ## Installation
   
-   by answering the prompts
+   by answering prompts
   
   ## Usage
   
-   Build a readme with your answers
+   to build a readme file
   
  
   
   ## Contributing
   
-   None
+   none
   
   ## License
   
-   MIT
-    () renderLicenseBadge
+   This application is covered by the MIT license.
+  
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
     
   
   
@@ -48,4 +52,4 @@
   Contact me further at tgold1@gmail.com
   
   ## Tests
-  No 
+  no

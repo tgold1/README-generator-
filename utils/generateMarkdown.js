@@ -24,6 +24,8 @@ function renderLicenseBadge(license) {
 
 }
 
+
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
@@ -36,6 +38,9 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return ` 
   # ${data.title}
+  
+  
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
     ${data.description}
@@ -67,8 +72,9 @@ function generateMarkdown(data) {
   
   ## License
   
-   ${data.license}
+   This application is covered by the ${data.license} license.
   
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
     
   
   
