@@ -2,30 +2,30 @@
   # README Generator
 
   ## Description
-    It is a file to demonstrate how to create a professional readme.
+    It is a prompt to help you generate a readme file
 
   
   ## Table of Contents 
-    Click the links below to jump to a section
+    Click the links
   
 -  [Installation](#installation)
 -  [Usage](#usage)
--  [Credits](#credits)
+-  [Contributing](#contributing)
 -  [License](#license)
--  [Questions](#questiions)
+-  [Questions](#questions)
 -  [Tests](#tests)
   
   ## Installation
   
-   Follow the prompts to create your own readme.
+   By answering the prompts 
   
   ## Usage
   
-   To generate a professional quality readme for a github project
+   After you answer the prompts a high-quality readme file will be generated
   
  
   
-  ## Credits
+  ## Contributing
   
    None 
   
@@ -35,13 +35,16 @@
   
   
   
-  ## Badges
+  
   
  
   
   ## Questions 
+  My github username is tgold1	
   
-  tgold1
-  tgold1@gmail.com
+  Click here: https://github.com/tgold1	
+
+  Contact me further at tgold1@gmail.com
+  
   ## Tests
-  No
+  No 

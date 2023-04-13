@@ -24,9 +24,9 @@ function generateMarkdown(data) {
   
 -  [Installation](#installation)
 -  [Usage](#usage)
--  [Credits](#credits)
+-  [Contributing](#contributing)
 -  [License](#license)
--  [Questions](#questiions)
+-  [Questions](#questions)
 -  [Tests](#tests)
   
   ## Installation
@@ -39,7 +39,7 @@ function generateMarkdown(data) {
   
  
   
-  ## Credits
+  ## Contributing
   
    ${data.contributing}
   
@@ -49,14 +49,17 @@ function generateMarkdown(data) {
   
   
   
-  ## Badges
+  
   
  
   
   ## Questions 
+  My github username is ${data.questions}
   
-  ${data.questions}
-  ${data.contactme}
+  Click here: https://github.com/${data.questions}
+
+  Contact me further at ${data.contactme}
+  
   ## Tests
   ${data.tests}
 `;
